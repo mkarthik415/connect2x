@@ -48,7 +48,7 @@ public class Login extends VerticalLayout {
         CssLayout labels = new CssLayout();
         labels.addStyleName("labels");
 
-        Label welcome = new Label(" Welcome");
+        Label welcome = new Label("Welcome");
         welcome.setSizeUndefined();
         welcome.addStyleName(ValoTheme.LABEL_H4);
         welcome.addStyleName(ValoTheme.LABEL_COLORED);
