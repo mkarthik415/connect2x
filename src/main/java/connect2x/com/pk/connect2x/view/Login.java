@@ -68,7 +68,7 @@ public class Login extends VerticalLayout {
         fields.setSpacing(true);
         fields.addStyleName("fields");
 
-        final TextField username = new TextField("Username");
+        final TextField username = new TextField("Username:");
         username.setIcon(FontAwesome.USER);
         username.addStyleName(ValoTheme.TEXTFIELD_INLINE_ICON);
 
